@@ -106,7 +106,7 @@ li {
 }
 /*---- header ----*/
 header {
-	background-image:url(/static/image/header/bg.jpg);
+	background-image:url(/dwp/static/image/header/bg.jpg);
 	background-size:cover;
 	width:100%;
 	height:348px;
@@ -184,7 +184,7 @@ header .menu01 li a:hover {
 .menu02 > li {
 	width:41.5%;
 	float:left;
-	background-image:url(/static/image/content/bg01.jpg);
+	background-image:url(/dwp/static/image/content/bg01.jpg);
 	background-size:cover;
 	height:249px;
 	position:relative;
@@ -193,7 +193,7 @@ header .menu01 li a:hover {
 }
 .menu02 > li + li {
 	margin:0 0 0 1%;
-	background-image:url(/static/image/content/bg02.jpg);
+	background-image:url(/dwp/static/image/content/bg02.jpg);
 	color:#ffe2b1;
 	border-top:#cadbe5;
 }
@@ -365,7 +365,7 @@ header .menu01 li a:hover {
 	position:absolute;
 	bottom:0;
 	left:0;
-	background-image:url(/static/image/content/bg03.png);
+	background-image:url(/dwp/static/image/content/bg03.png);
 	background-position:top right;
 	background-repeat:no-repeat;
 	padding:6px 7px 0 0;
