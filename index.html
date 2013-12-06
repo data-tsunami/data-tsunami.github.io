@@ -32,6 +32,14 @@
       .novedad {
           font-size: small;
       }
+
+      hr.novedad-dep {
+          padding: 5px;
+          margin: 5px;
+          margin-left: 100px;
+          margin-right: 100px;
+          border-top: 1px dashed #cadce3;
+      }
     </style>
 
 </head>
@@ -106,19 +114,19 @@
 
       <div class="row">
         <div class="col-sm-4 col-center">
-
             <h3>Novedades</h3> <!-- **** Novedades **** -->
+
             <p class="novedad">
                 <strong>Nov-2013</strong>: empezando el relevamiento para el desarrollo de
                 un software de gestión de información de piezas arqueológicas, para el
                 <a href="https://www.google.com.ar/search?q=Museo+Arqueológico+de+Cachi+Pío+Pablo+Díaz" target="_blank">Museo
                 Arqueológico de Cachi Pío Pablo Díaz</a>.
-            </p>
+            </p><hr class="novedad-dep">
 
             <p class="novedad">
                 <strong>Oct-2013 <!-- / ElectroIngeniería --></strong>: deploy exitoso de <strong>Samba 4</strong> como Domain Controller
                 de dominio Active Directory.
-            </p>
+            </p><hr class="novedad-dep">
 
             <p class="novedad">
                 <strong>Sep-2013 / Kadicard</strong>: el prototipo de procesamiento de cupones desarrollado
@@ -129,17 +137,20 @@
             </p>
 
         </div>
-        <div class="col-sm-4 col-center">
-            <h3>Proyectos en curso</h3>
+
+        <div class="col-sm-5 col-center">
+            <h3>Proyectos en curso</h3> <!-- **** Proyectos **** -->
+            
             <p class="novedad">
                 <strong>py-arduino</strong>:
                 adaptación y mejora de <a target="_blank" href="https://github.com/hgdeoro/py-arduino/tree/angular-js">py-arduino</a>
                 para realizar monitoreo de data center: temperatura, tensión, consumo,
                 sensores de movimiento y de aberturas. Basado en Python y Arduino.
-                
             </p>
+
         </div>
-        <div class="col-sm-4 col-center">
+
+        <div class="col-sm-3 col-center">
             <h3>Contáctenos</h3>
             <p><img src="horacio.de.oro.jpg" class="img-thumbnail" alt="Mi foto"></p>
             <h5>Horacio G. de Oro</h5>
@@ -152,6 +163,7 @@
               <small><a target="_blank" href="https://www.linkedin.com/in/hgdeoro">linkedin</a></small><br>
             </p>
         </div>
+
       </div>
 
       <hr class="featurette-divider"> <!-- ============================== -->
