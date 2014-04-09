@@ -42,6 +42,7 @@
           margin-right: 70px;
           border-top: 1px dashed #cadce3;
       }
+
       .container-footer {
         padding: 10px;
         background-color: #aaa;
@@ -50,6 +51,16 @@
         padding-top: 10px;
         padding-bottom: 10px;
         background-color: #f7f7f7;
+      }
+
+      div.servicio em {
+        color: #3d7696;
+        font-style: normal;
+        font-weight: bold; 
+      }
+      div.servicio h4 {
+        color: #3d7696;
+        font-weight: bold; 
       }
     </style>
 
@@ -69,35 +80,39 @@
       <h2 class="tit" style="margin-bottom: 10px;">Servicios</h2>
 
       <div class="row">
-        <div class="col-sm-3 col-center">
-          <img class="img img-servicios" src="servidores-linux.png" alt="Servidores Linux">
+        <div class="col-sm-3 col-center servicio">
+          <h4>Servidores Linux</h4>
+          <hr class="novedad-dep">
           <p>
             CentOS, Ubuntu, Debian<br>
-            Bases de datos: postgresql<br>
-            Virtualización: kvm<br>
-            Servicios: apache, nginx, smtp, samba, etc.
+            <em>Bases de datos</em>: postgresql<br>
+            <em>Virtualización</em>: kvm<br>
+            <em>Servicios</em>: apache, nginx, smtp, samba, etc.
           </p>
         </div>
         
-        <div class="col-sm-3 col-center">
-          <img class="img img-servicios" src="dev-ops.png" alt="Dev Ops">
+        <div class="col-sm-3 col-center servicio">
+          <h4>DevOps</h4>
+          <hr class="novedad-dep">
           <p>
-            Automatización de deploy: ansible<br>
-            Monitoreo de aplicaciones: icinga, munin
+            <em>Automatización y deploy</em>: ansible<br>
+            <em>Monitoreo de aplicaciones</em>: icinga, munin
           </p>
         </div>
         
-        <div class="col-sm-3 col-center">
-          <img class="img img-servicios" src="desarrollo.png" alt="Desarrollo de aplicaciones">
+        <div class="col-sm-3 col-center servicio">
+          <h4>Desarrollo</h4>
+          <hr class="novedad-dep">
           <p>
-            Desarrollo web en Python: django, uwsgi<br>
-            Desarrollo de aplicaciones: java<br>
+            <em>Desarrollo web en Python</em>: django, uwsgi<br>
+            <em>Desarrollo de aplicaciones</em>: java<br>
             git, jenkins/hudson
           </p>
         </div>
         
-        <div class="col-sm-3 col-center">
-          <img class="img img-servicios" src="big-data.png" alt="Big Data">
+        <div class="col-sm-3 col-center servicio">
+          <h4>Big Data</h4>
+          <hr class="novedad-dep">
           <p>
             Hadoop, Pig<br>
             Setup de clusters
