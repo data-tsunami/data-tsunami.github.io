@@ -1,2 +1,4 @@
 deploy-ec2.data-tsunami.com.sh
 /virtualenv
+/.project
+/.pydevproject
