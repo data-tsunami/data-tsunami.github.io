@@ -1,0 +1,54 @@
+      /* Generales */
+      body { padding-top: 70px; }
+      body, p {
+        font-family: 'Asap', sans-serif;
+        color: #333;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Asap', sans-serif;
+        color: #3d7696;
+      }
+      h1, h2 {
+        padding-bottom: 1em;
+        padding-top: 0.5em;
+      }
+      p { font-size: small; }
+
+      .col-center { text-align: center; }
+      .img-servicios { margin-bottom: 5px; }
+      .novedad { }
+
+      hr.separador-small {
+          padding: 5px;
+          margin: 5px;
+          margin-left: 70px;
+          margin-right: 70px;
+          border-top: 1px dashed #cadce3;
+      }
+
+      .container-footer {
+        padding: 10px;
+        background-color: #aaa;
+      }
+
+      .container-novedades-proy-contactenos {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #f7f7f7;
+      }
+
+      /* Cuadros con servicios */
+      div.servicio em {
+        color: #3d7696;
+        font-style: normal;
+        font-weight: bold; 
+      }
+      div.servicio h4 {
+        color: #3d7696;
+        font-weight: bold; 
+      }
+      div.servicio hr {
+          padding: 5px;
+          margin: 5px;
+          border-top: 1px dashed #cadce3;
+      }
