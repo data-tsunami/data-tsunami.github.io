@@ -32,6 +32,13 @@
         background-color: #aaa;
       }
 
+      .container-footer hr {
+          padding: 5px;
+          margin: 5px;
+          border-top: 1px dashed #bbb;
+      }
+
+
       .container-novedades-proy-contactenos {
         padding-top: 10px;
         padding-bottom: 10px;
@@ -53,6 +60,7 @@
         color: #3d7696;
         font-weight: bold; 
       }
+
       div.servicio hr {
           padding: 5px;
           margin: 5px;
