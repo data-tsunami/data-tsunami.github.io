@@ -75,11 +75,6 @@
 
       /*--- Header ---*/     
 
-      .fa:before {
-        display: none;
-      }
-
-
       /*--- Clientes ---*/
 
       .clientes div img {
@@ -90,16 +85,9 @@
         float: left;
         }
 
-
       /*--- MQ ---*/
 
       @media (max-width: 768px){
-        /*.menu-principal >li>a {
-            padding-top: 5px;
-            padding-bottom: 5px;
-            text-align: right;
-        }*/
-
         .clientes > div {
           margin: 20px 0;
         }
@@ -108,31 +96,9 @@
       @media (max-width: 550px) {
 
         /*--- Header ---*/
-        
-        .fa:before {
-          /*background: #777;
-          border-radius: 50%;*/
-          display: block;
-          width: 20px;
-          height: 20px;
-          color: #777;
-          font-size: 20px;
-          line-height: 20px;
-          vertical-align: middle;
-          text-align: center;
-          text-indent: 0;
-          float: right;
-          position: relative;
-        }
 
         .fa-google-plus:before {
           top: 2px;
-        }
-        .menu-principal >li>a.fa {
-          font-size: 0;
-          color: transparent;
-          text-indent: -1000%;
-          overflow: hidden;
         }
 
         /*--- Clientes ---*/
@@ -145,7 +111,7 @@
 
       @media (max-width: 350px) {
         .menu-principal >li {
-        float: none;
+            float: none;
         }
 
         .menu-principal >li>a {
